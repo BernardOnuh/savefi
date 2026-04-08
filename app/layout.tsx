@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Syne, DM_Sans, DM_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const syne = Syne({
@@ -23,6 +24,10 @@ const dmMono = DM_Mono({
 export const metadata: Metadata = {
   title: "SaveCelo — USD Savings on Celo",
   description: "Save cUSD securely on the Celo blockchain via MiniPay",
+  other: {
+    "talentapp:project_verification":
+      "0e831546901a11ab8c9e09af48f7158d64a2f913324650a55df3e31d85b75728b7e87da65234b8855c278ed34e28d804c8221053bf681b6914aafce25fb144dd",
+  },
 };
 
 export const viewport: Viewport = {
@@ -32,12 +37,32 @@ export const viewport: Viewport = {
   themeColor: "#0a0a0f",
 };
 
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${syne.variable} ${dmSans.variable} ${dmMono.variable}`}>
-      <body>{children}</body>
+      <body>
+        {GA_MEASUREMENT_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}');
+              `}
+            </Script>
+          </>
+        )}
+        {children}
+      </body>
     </html>
   );
 }
