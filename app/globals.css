@@ -3,9 +3,9 @@
 @import "tailwindcss";
 
 :root {
-  --celo-green: #35d07f;
-  --celo-gold: #fbcc5c;
-  --celo-dark: #1e002b;
+  --celo-green: #21ec83;
+  --celo-gold: #f9bd30;
+  --celo-dark: #260137;
 }
 
 * {
