@@ -22,7 +22,7 @@ const dmMono = DM_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SaveCelo — USD Savings on Celo",
+  title: "SaveCelo — CUSD Savings on Celo",
   description: "Save cUSD securely on the Celo blockchain via MiniPay",
   other: {
     "talentapp:project_verification":
