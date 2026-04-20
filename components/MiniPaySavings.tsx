@@ -407,7 +407,7 @@ export default function MiniPaySavings() {
       </div>
 
       {/* ── Action Card ── */}
-      
+
       <div className="flex-1 mx-4 rounded-3xl p-5"
         style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)" }}>
 
@@ -492,6 +492,7 @@ export default function MiniPaySavings() {
         )}
 
         {/* ── Deposit / Withdraw Tabs ── */}
+
         {tab !== "rewards" && (
           <>
             <div className="mb-4">
@@ -573,6 +574,7 @@ export default function MiniPaySavings() {
       </div>
 
       {/* ── Transaction History ── */}
+      
       {history.length > 0 && (
         <div className="mx-4 mt-4 mb-8">
           <p className="text-xs uppercase tracking-widest mb-3 px-1 font-mono" style={{ color: "rgba(255,255,255,0.25)" }}>
