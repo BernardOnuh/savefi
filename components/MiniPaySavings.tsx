@@ -16,7 +16,7 @@ import { SavingsTx, TxStatus } from "@/lib/config";
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 const APY_TIERS = [
-  { label: "Base",     apy: 10, minDays: 0,   color: "#25d87b", desc: "0–89 days"   },
+  { label: "Base",     apy: 10, minDays: 0,   color: "#10f07c", desc: "0–89 days"   },
   { label: "Silver",   apy: 18, minDays: 90,  color: "#c8c8c6", desc: "90–179 days" },
   { label: "Gold",     apy: 25, minDays: 180, color: "#e9680d", desc: "180–364 days" },
   { label: "Bronze", apy: 30, minDays: 365, color: "#4409f3", desc: "365+ days"   },
