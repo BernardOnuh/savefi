@@ -22,7 +22,7 @@ const config: Config = {
       },
       backgroundImage: {
         "mesh-gradient":
-          "radial-gradient(at 40% 20%, #35D07F22 0px, transparent 50%), radial-gradient(at 80% 0%, #FBCC5C18 0px, transparent 50%), radial-gradient(at 0% 50%, #35D07F11 0px, transparent 50%)",
+          "radial-gradient(at 40% 20%, #e6f3ec22 0px, transparent 50%), radial-gradient(at 80% 0%, #FBCC5C18 0px, transparent 50%), radial-gradient(at 0% 50%, #35D07F11 0px, transparent 50%)",
       },
     },
   },
