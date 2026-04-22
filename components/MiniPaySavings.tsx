@@ -19,7 +19,7 @@ const APY_TIERS = [
 
   { label: "Base",     apy: 10, minDays: 0,   color: "#01f878", desc: "0–90 days"   },
   { label: "Silver",   apy: 18, minDays: 90,  color: "#e6e6e4", desc: "91–180 days" },
-  { label: "Gold",     apy: 25, minDays: 180, color: "#e6b206", desc: "180–364 days" },
+  { label: "Gold",     apy: 25, minDays: 180, color: "#e6b206", desc: "181–365 days" },
   { label: "Bronze", apy: 30, minDays: 365, color: "#4006f0", desc: "365+ days"   },
 ];
 
