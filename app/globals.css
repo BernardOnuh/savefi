@@ -65,7 +65,7 @@ body::before {
   background: linear-gradient(
     90deg,
     transparent 20%,
-    rgba(58, 227, 140, 0.15) 50%,
+    rgba(63, 242, 150, 0.15) 50%,
     transparent 80%
   );
   background-size: 200% auto;
