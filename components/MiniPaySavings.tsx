@@ -124,7 +124,7 @@ function ModeSwitchModal({
       ref={overlayRef}
       onClick={handleOverlayClick}
       className="fixed inset-0 z-50 flex items-end justify-center sm:items-center"
-      style={{ background: "rgba(0,0,0,0.75)", backdropFilter: "blur(8px)" }}
+      style={{ background: "rgba(12, 12, 12, 0.75)", backdropFilter: "blur(8px)" }}
     >
       <div
         className="w-full max-w-sm mx-4 mb-4 sm:mb-0 rounded-3xl p-6 relative"
