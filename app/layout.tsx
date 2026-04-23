@@ -37,7 +37,7 @@ export const viewport: Viewport = {
   themeColor: "#0a0a0d",
 };
 
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+
 
 export default function RootLayout({
   children,
