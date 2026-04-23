@@ -262,7 +262,7 @@ function ModeSwitchModal({
             className="w-full py-3.5 rounded-2xl font-semibold text-sm flex items-center justify-center gap-2 transition-all active:scale-95"
             style={{
               background: isConnecting ? "rgba(53,208,127,0.3)" : "linear-gradient(135deg, #35D07F, #2bb870)",
-              color: "#0a0a0f",
+              color: "#030305",
               boxShadow: isConnecting ? "none" : "0 0 25px rgba(53,208,127,0.25)",
             }}
           >
