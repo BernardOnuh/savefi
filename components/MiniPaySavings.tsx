@@ -128,7 +128,7 @@ function ModeSwitchModal({
     >
       <div
         className="w-full max-w-sm mx-4 mb-4 sm:mb-0 rounded-3xl p-6 relative"
-        style={{ background: "#13131a", border: "1px solid rgba(255,255,255,0.1)" }}
+        style={{ background: "#14141a", border: "1px solid rgba(255,255,255,0.1)" }}
       >
         {/* Close */}
         <button
