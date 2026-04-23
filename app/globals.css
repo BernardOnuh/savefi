@@ -35,7 +35,7 @@ body::before {
 }
 
 .glow-green {
-  box-shadow: 0 0 40px rgba(53, 208, 127, 0.15);
+  box-shadow: 0 0 40px rgba(59, 232, 142, 0.15);
 }
 
 .glow-gold {
